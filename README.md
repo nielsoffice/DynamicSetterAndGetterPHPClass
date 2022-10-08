@@ -26,11 +26,22 @@ class AddDataOnMethodClass {
 ```
 
 ```PHP
-
+/*
 $array =  new AddDataOnMethodClass();
 $array->setData([1,2,3]);
 $array->setData([4,2,6]);
 $array->setData(['a','b','c']);
+$array = $array->getData();
+*/
+
+```
+
+```PHP
+
+$array =  new AddDataOnMethodClass();
+$array->setData([1,2,3])->insert();
+$array->setData([4,2,6])->insert();
+$array->setData(['a','b','c'])->insert();
 $array = $array->getData();
 
 echo "<pre>";
