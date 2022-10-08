@@ -1,6 +1,6 @@
 <?php 
 
-class AddDataOnMethodClass {
+class DynamicSetterandGetterMultipleData {
 
     private $container  = [];
 
@@ -87,7 +87,7 @@ class AddDataOnMethodClass {
 
 
 # Finally Dynamic PHP Class Multiple SetData!
-$array =  new AddDataOnMethodClass();
+$array =  new DynamicSetterandGetterMultipleData();
 $array->setData([ 'v' => 1, 'c' =>2, 'd' => 3]);
 $array->setData([ 'v' => 4, 'c' =>6, 'd' => 9]);
 $array->setData([ 'v' => 'hh', 'c' =>'yy', 'd' => 'dd']);
